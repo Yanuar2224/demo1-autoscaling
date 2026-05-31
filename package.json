@@ -1,0 +1,17 @@
+{
+  "name": "demo1-autoscaling",
+  "version": "1.0.0",
+  "description": "Demo Auto Scaling project with Vercel Web Analytics",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "node api/index.js",
+    "test": "echo \"No tests specified\" && exit 0",
+    "lint": "echo \"No linter configured\" && exit 0"
+  },
+  "keywords": ["autoscaling", "vercel", "analytics"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^1.1.1"
+  }
+}
